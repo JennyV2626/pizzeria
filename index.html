@@ -102,6 +102,20 @@
                 <textarea id="SpecialRequests" name="SpecialRequests" rows="4" cols="10"
                           placeholder="Allergic to peanuts, substitutions, etc.."></textarea>
             </fieldset>
+            <fieldset>
+                <legend>Delivery?</legend>
+                <div>
+                    <input type="radio" id="yes" name="delivery">
+                    <label for="yes">Yes</label>
+                </div>
+                <div>
+                    <input type="radio" id="no" name="delivery">
+                    <label for="no">No</label>
+                </div>
+                <label for="delivery">If so, address:</label>
+                <textarea id="delivery" name="delivery" rows="2" cols="30"
+                          placeholder="Insert address.."></textarea>
+            </fieldset>
             <button type="button" onclick="alert('Free today for our Grand Opening!')">Calculate Cost</button>
             <button type="submit">Submit Order</button>
         </form>
